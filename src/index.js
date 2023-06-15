@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
-import {makeServer} from "./server"
+// import {makeServer} from "./server"
 import reportWebVitals from './reportWebVitals';
 import { MediaProvider } from './Context/MediaContext';
 import { AuthProvider } from './Context/AuthContext';
@@ -11,7 +11,7 @@ import { AuthProvider } from './Context/AuthContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-makeServer();
+// makeServer();
 
 root.render(
   <React.StrictMode>
